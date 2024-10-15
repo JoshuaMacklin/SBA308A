@@ -1,0 +1,3 @@
+const API_KEY = "live_C9iEtPg54awJpTo4QX7RoGFsgMBvEc90dWA73rvw3AuZJatT06iGrkqCDbqdNZmr";
+
+export default API_KEY

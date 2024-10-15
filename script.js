@@ -1,19 +1,21 @@
-const API_KEY = "live_uvoSZa1Mc5WHBv9dEFTImpzBm0CVy1n9pZsyj70QBMLRHC5pRDPgpq7sUHsNO7Pe";
+import API_KEY from "./modules/API_KEY.js";
+import breedPics from "./modules/breedPics.js";
+import catChat from "./modules/catChat.js";
+import catChatPost from "./modules/catChatPost.js";
 
 let form = document.getElementById("form")
 let input = document.getElementById("cat-search")
+let catChatForm = document.getElementById("catChatForm")
+let catChatFormInput = document.getElementById("catChatFormInput")
+
+catChat()
 
 form.addEventListener("submit", (event)=> {
     event.preventDefault()
-
-    tenBreeds(input.value)
-
+    breedPics(input.value)
 })
 
-async function tenBreeds(userInput){
-    let breeds = await axios.get(`https://api.thecatapi.com/v1/images/search?limit=10&breed_ids=${userInput}&api_key=${API_KEY}`);
-    console.log(breeds);
-}
-
-
-
+catChatForm.addEventListener("submit", (event)=> {
+    event.preventDefault();
+    catChatPost(catChatFormInput.value);
+})

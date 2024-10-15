@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    background-color: beige;
+    margin: 0px;
+    padding: 18px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#app {
+    display: flex;
+}
+
+#breedSearchContainer{
+    width: -webkit-fill-available;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#breedSearch, #catChatForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#breedSearch h2{
+   
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+#breedSearchContainer, #catChatContainer {
+    /* border: 1px solid black; */
+}
+
+#catChatContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 12px;
+}

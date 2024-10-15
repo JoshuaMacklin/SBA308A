@@ -7,17 +7,30 @@
     <!-- <script type="module" defer src="script.tsx"></script> -->
     <script type="module" src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="module" defer src="script.js"></script>
+    <link rel="stylesheet" href="catstagram.css">
 
 </head>
 <body>
-    <h1>SBA 308A</h1>
-    <form action="" id="form">
-        <input type="text" name="cat-search" id="cat-search">
-    </form>
-
+    <h1>Catstagram</h1>
     <div id="app">
+        <div id="breedSearchContainer">
+            <form action="" id="form">
+                <h2>Breed Search</h2>
+                <input type="text" name="cat-search" id="cat-search">
+            </form>
+            <div id="breedSearch"></div>
+        </div>
+        <div id="catChatContainer">
+            <div id="catChat">
+            
+            </div>
+            <form action="" id="catChatForm">
+                <h2>Cat Chat</h2>
+                <input type="text" name="catChat" id="catChatFormInput">
+            </form>
 
+        </div>
+        
     </div>
-   
 </body>
 </html>
