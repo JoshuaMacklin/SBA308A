@@ -16,7 +16,7 @@ body {
 
 #breedSearchContainer{
     width: -webkit-fill-available;
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
