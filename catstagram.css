@@ -34,10 +34,6 @@ body {
     margin-bottom: 32px;
 }
 
-#breedSearchContainer, #catChatContainer {
-    /* border: 1px solid black; */
-}
-
 #catChatContainer {
     display: flex;
     justify-content: flex-end;

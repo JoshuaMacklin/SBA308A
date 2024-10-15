@@ -1,4 +1,3 @@
-import API_KEY from "./modules/API_KEY.js";
 import breedPics from "./modules/breedPics.js";
 import catChat from "./modules/catChat.js";
 import catChatPost from "./modules/catChatPost.js";
